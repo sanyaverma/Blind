@@ -41,7 +41,7 @@ h4,
 h5,
 h6 {
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
-  font-weight: 200;
+  font-weight: 300;
   letter-spacing: 1px;
 }
 
@@ -205,7 +205,7 @@ section.download {
 }
 
 section.download h2 {
-  font-size: 50px;
+  font-size: 40px;
   margin-top: 0;
 }
 
@@ -231,12 +231,12 @@ section.download .badges .badge-link img {
 
 @media (min-width: 768px) {
   section.download h2 {
-    font-size: 70px;
+    font-size: 50px;
   }
 }
 
 section.features .section-heading {
-  margin-bottom: 100px;
+  margin-bottom: 200px;
 }
 
 section.features .section-heading h2 {
@@ -422,13 +422,14 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 }
 
 .btn {
-  border-radius: 300px;
+  border-radius: 400px;
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
   letter-spacing: 2px;
   text-transform: uppercase;
 }
 
 .btn-xl {
-  font-size: 11px;
+  font-size: 12px;
+  font-weight: 800;
   padding: 15px 45px;
 }
